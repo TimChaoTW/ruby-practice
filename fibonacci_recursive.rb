@@ -1,5 +1,8 @@
-def fibonacci_recursive(n)
-	#Boundary condition
-  return n if n <= 1 
-  fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
+# frozen_string_literal: true
+
+def fibonacci_recursive(num)
+  # Boundary condition
+  return num if num <= 1
+
+  fibonacci_recursive(num - 1) + fibonacci_recursive(num - 2)
 end
